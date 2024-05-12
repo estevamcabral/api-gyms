@@ -1,0 +1,33 @@
+{
+  "name": "api-solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "prisma": "5.13.0",
+    "tsup": "8.0.2",
+    "tsx": "^4.7.3",
+    "typescript": "5.4.5",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.13.0",
+    "@types/bcryptjs": "2.4.6",
+    "bcrypt": "5.1.1",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.4.5",
+    "fastify": "4.26.2",
+    "js": "0.1.0",
+    "zod": "3.23.4"
+  }
+}
